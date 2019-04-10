@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1{
+    margin: 0px;
+}
+.container{
+     display: inline; 
+ 
+/*  justify-content: space-between; */
+    background-color: blueviolet;
+   
+}
+
+.rooter{
+    background: url(../images/bicycle.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    /* background-color:yellowgreen; */
+    height:1400px;
+  
+}
+.features{
+    background-color: deeppink;
+}
+.get_started{
+    background-color: cadetblue;
+}
+.footer{
+    background-color: darksalmon;
+}
