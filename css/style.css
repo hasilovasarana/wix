@@ -4,25 +4,44 @@ body{
 
 }
 
+  
 h1{
     margin: 0px;
 }
-.container{
-     display: inline; 
- 
-/*  justify-content: space-between; */
-    background-color: blueviolet;
-   
-}
+
 
 .rooter{
-    background: url(../images/bicycle.jpg);
+    
+    background: url(../images/bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
     /* background-color:yellowgreen; */
-    height:1400px;
+    height:1000px;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header img{
+   width: 120px;
+   height:120px;
+}
+
+#side_btn{
+ 
+    color:white;
+}
+
+.caption_box{
+    
+   
+  
   
 }
 .features{
